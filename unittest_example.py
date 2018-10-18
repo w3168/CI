@@ -7,6 +7,3 @@ class TestSolveQuadratic(unittest.TestCase):
         self.assertEqual(foo.solve_quadratic(1,0,-1), (-1.0,1.0))
         self.assertEqual(foo.solve_quadratic(1,0,0), 0.0 )
         self.assertEqual(foo.solve_quadratic(1,0,1), None)
-   
-   
-unittest.main()

@@ -10,4 +10,4 @@ def solve_quadratic(a,b,c):
         return -b/(2.0*a)
     else:
         # no solutions
-        return Nun
+        return None
